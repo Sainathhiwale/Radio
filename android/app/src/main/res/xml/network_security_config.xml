@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">streams.ilovemusic.de</domain> <!-- Your stream domain -->
+        <domain includeSubdomains="true">103.112.32.142/hls/hingolifm/live.m3u8</domain> <!-- Your stream domain -->
+    </domain-config>
+</network-security-config>
